@@ -1,24 +1,26 @@
 'use strict';
 
-var TelegramBot = require('node-telegram-bot-api');
+var telegram = require('telegram-bot-api');
 
-var TOKEN = '207817037:AAFjP3ZFjz94mc131hXIDTcU05LdK2PZ9Po';
-var USER = '137453162';
+var api = new telegram({
+        token: '207817037:AAFjP3ZFjz94mc131hXIDTcU05LdK2PZ9Po',
+        updates: {
+            enabled: true
+    }
+});
 
-var bot = new TelegramBot(TOKEN, {polling: {timeout: 1, interval: 100}});
+api.on('message', function(message)
+{
+   // Received text message
+    console.log(message);
 
-var opts = {
-  reply_markup: JSON.stringify(
-      {
-        force_reply: true
-      }
-  )};
-
-bot.sendMessage(USER, 'How old are you?', opts)
-    .then(function (sended) {
-      var chatId = sended.chat.id;
-      var messageId = sended.message_id;
-      bot.onReplyToMessage(chatId, messageId, function (message) {
-        console.log('User is %s years old', message.text);
-      });
-    });
+    api.sendMessage({
+      chat_id: message.chat.id,
+      text: message.text 
+    })
+      .then(function(message)
+  {
+    console.log(message);
+  })
+ 
+});
