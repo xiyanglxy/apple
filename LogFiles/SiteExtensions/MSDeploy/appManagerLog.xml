@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entries>
+  <entry time="2016-06-15T15:41:58.4169228+00:00" type="Message">
+    <message>Downloading metadata for package path 'packages/NodeJsSite1.1.zip' from blob 'https://auxmktplceprod.blob.core.windows.net'</message>
+  </entry>
+  <entry time="2016-06-15T15:41:58.6915054+00:00" type="Message">
+    <message>The blob has flag IsPremiumApp:. IsPremiumApp returns False</message>
+  </entry>
+  <entry time="2016-06-15T15:41:58.7555109Z" type="Message">
+    <message>Downloading package path 'packages/NodeJsSite1.1.zip' from blob 'https://auxmktplceprod.blob.core.windows.net'</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.066557Z" type="Message">
+    <message>The following parameters were populated: 'AppPath'</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.066557Z" type="Message">
+    <message>Calling SyncTo() on package.</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.4415466Z" type="Message">
+    <message>Adding file (telegrambotV2\favicon.ico).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.4415466Z" type="Message">
+    <message>Adding file (telegrambotV2\favicon.ico).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.4921338Z" type="Message">
+    <message>Deleting file (telegrambotV2\hostingstart.html).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.4921338Z" type="Message">
+    <message>Deleting file (telegrambotV2\hostingstart.html).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.4921338Z" type="Message">
+    <message>Adding file (telegrambotV2\HTMLPage.html).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.4921338Z" type="Message">
+    <message>Adding file (telegrambotV2\HTMLPage.html).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5070852Z" type="Message">
+    <message>Adding file (telegrambotV2\package.json).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5070852Z" type="Message">
+    <message>Adding file (telegrambotV2\package.json).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5070852Z" type="Message">
+    <message>Adding directory (telegrambotV2\public).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5070852Z" type="Message">
+    <message>Adding directory (telegrambotV2\public).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5196756Z" type="Message">
+    <message>Adding file (telegrambotV2\public\example.txt).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5196756Z" type="Message">
+    <message>Adding file (telegrambotV2\public\example.txt).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5196756Z" type="Message">
+    <message>Adding file (telegrambotV2\robots.txt).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5196756Z" type="Message">
+    <message>Adding file (telegrambotV2\robots.txt).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5353227Z" type="Message">
+    <message>Adding file (telegrambotV2\server.js).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5353227Z" type="Message">
+    <message>Adding file (telegrambotV2\server.js).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5353227Z" type="Message">
+    <message>Adding file (telegrambotV2\web.config).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5353227Z" type="Message">
+    <message>Adding file (telegrambotV2\web.config).</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5509282Z" type="Message">
+    <message>Adding ACL's for path (telegrambotV2)</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5509282Z" type="Message">
+    <message>Adding ACL's for path (telegrambotV2)</message>
+  </entry>
+  <entry time="2016-06-15T15:41:59.5856006Z" type="Message">
+    <message>Total Changes: 10 (8 added, 1 deleted, 1 updated, 0 parameters changed, 44580 bytes copied)</message>
+  </entry>
+</entries>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <deployer>live.com#zainul1996@gmail.com</deployer>
+  <provisioningState>succeeded</provisioningState>
+  <startTime>2016-06-15T15:41:58.7243192Z</startTime>
+  <endTime>2016-06-15T15:41:59.5978028Z</endTime>
+  <complete>true</complete>
+  <runningWorker>RD0003FF28D8C4</runningWorker>
+  <runningProcessId>3948</runningProcessId>
+</deployment>
