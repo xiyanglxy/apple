@@ -1,5 +1,9 @@
 'use strict';
 
+out.print('hi');
+
+console.log('test');
+
 var telegram = require('telegram-bot-api');
 
 var api = new telegram({
